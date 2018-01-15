@@ -1,4 +1,4 @@
-Tools and research:
+0. Tools and research:
 ->Agape Alexandru 
 ->Cazamir Delia
 ->Chirila Loredana
@@ -8,10 +8,10 @@ Tools and research:
 ->Juravle Oana
 ->Negruser Tudor Gabriel
 In stadiul initial al modulului a fost necesaa cercetarea diferitelor tool-uri pentru a aduce la aceiasi forma toate intrebarile si
-rapunsurile (eliminarea sinonimelor/derivatelor). Au fost investigate de fiecare membru al echipei librarii precum NLTK si RAKE, dar si
+rapunsurile (lematizarea). Au fost investigate de fiecare membru al echipei librarii precum NLTK si RAKE, dar si Wordnet pentru romana.
 
 
-Normalizarea intrebarilor/raspunsurilor:
+1. Normalizarea intrebarilor/raspunsurilor:
 ->Juravle Oana
 ->Negruser Tudor Gabriel
 Dupa identificarea tool-urilor  si resurselor corecte pentru taskul existent s-a inceput lucrul cu libraria NLTK la normalizarea tuturor
@@ -19,13 +19,14 @@ textelor prin aducerea la aceiasi forma a cuvintelor derivate si a sinonimelor (
 WordNet pentru limba romana a fost necesar pentru sinonime (http://compling.hss.ntu.edu.sg/omw/)
 
 
-Maparea imaginilor:
+1'. Maparea imaginilor:
 ->Chirila Loredana
 Dupa normalizarea textelor a fost necesara maparea acestora la o imagine in fuctie de cuvintele cheie gasite in acestea. S-a facut matching
-bazat pe numarul maxim de cuvinte cheie, iar apoi in ordinea gasita.
+bazat pe numarul maxim de cuvinte cheie, iar apoi in ordinea gasita (daca sunt mai multe intrebari cu acelasi numar de cuvinte cheie maxim
+se va alege prima gasita).
 
 
-Generare Intrebari:
+2. Generare Intrebari:
 ->Agape Alexandru 
 ->Cazamir Delia
 ->Cozma Laurentiu
