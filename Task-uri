@@ -1,8 +1,35 @@
-Generare Intrebari:
-
+Tools and research:
 ->Agape Alexandru 
 ->Cazamir Delia
 ->Chirila Loredana
 ->Cozma Laurentiu
 ->Dones Adrian
 ->Iordache Marian 
+->Juravle Oana
+->Negruser Tudor Gabriel
+In stadiul initial al modulului a fost necesaa cercetarea diferitelor tool-uri pentru a aduce la aceiasi forma toate intrebarile si
+rapunsurile (eliminarea sinonimelor/derivatelor). Au fost investigate de fiecare membru al echipei librarii precum NLTK si RAKE, dar si
+
+
+Normalizarea intrebarilor/raspunsurilor:
+->Juravle Oana
+->Negruser Tudor Gabriel
+Dupa identificarea tool-urilor  si resurselor corecte pentru taskul existent s-a inceput lucrul cu libraria NLTK la normalizarea tuturor
+textelor prin aducerea la aceiasi forma a cuvintelor derivate si a sinonimelor (libraria python NLTK - http://www.nltk.org/). Modullul de
+WordNet pentru limba romana a fost necesar pentru sinonime (http://compling.hss.ntu.edu.sg/omw/)
+
+
+Maparea imaginilor:
+->Chirila Loredana
+Dupa normalizarea textelor a fost necesara maparea acestora la o imagine in fuctie de cuvintele cheie gasite in acestea. S-a facut matching
+bazat pe numarul maxim de cuvinte cheie, iar apoi in ordinea gasita.
+
+
+Generare Intrebari:
+->Agape Alexandru 
+->Cazamir Delia
+->Cozma Laurentiu
+->Dones Adrian
+->Iordache Marian
+Dupa ce au fost abandonate taskurile anerioare datorita schimbarii directiei proiectului ne-am alaturat modulului de Cautare si Preluare de
+imagini pentru a genera intrebarle finale in maniera aleatorie in functie de fisierul de cuvinte cheie corespunztor unei imagini.
