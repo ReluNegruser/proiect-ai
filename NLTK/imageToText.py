@@ -56,7 +56,6 @@ def imageIndex(image, imageText, question):
                 if (tokensQuestion[tokenCounter] in imageText[imageCounter][i]):
                     counter = counter + 1
             tokenCounter = tokenCounter + 1
-            #print(imageText[resetCounter])
         countersList.append(counter)
         counter = 0
         imageCounter = imageCounter + 1
